@@ -104,4 +104,10 @@ h1 {
 .cards:hover.card-top + .card-bottom {
   transform: translate(0px, 50px);
 }
+.card:first-child {
+  margin-left: 20px;
+}
+.card:last-child {
+  margin-right: 20px;
+}
 }
