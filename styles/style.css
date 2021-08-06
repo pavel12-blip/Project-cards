@@ -1,4 +1,4 @@
-body{
+body {
   background-color: antiquewhite;
 }
 
@@ -23,7 +23,7 @@ body{
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 5px 2px;
+  box-shadow: 0 0 1px 1px;
 }
 .card:first-child {
   margin-left: 40px;
@@ -49,21 +49,21 @@ body{
   transition: 1s;
 }
 
-.cards:hover.card-top {
-  transform: translate(0px, -175px);
+.cards:hover.card-top  {
+  transform: translate(0px, -87.5px);
   transition: 2s;
 }
 
-.cards:hover.card-bottom {
-  transform: translate(0px, 175px);
-  transition: 0.5s;
+.cards:hover.card-top + .card-bottom  {
+  transform: translate(0px, 87.5px);
+  transition: 2s;
 }
 .ava {
   max-width: 100px;
   margin: 10px 10px;
   border-radius: 50%;
 }
-h1{
+h1 {
   font-size: 23px;
 }
 .text {
