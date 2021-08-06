@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v3-latin_cyrillic-regular.woff2") format("woff2");
+}
 body {
   background-color: antiquewhite;
+}
+h1{
+  
 }
 
 .container {
@@ -51,12 +60,12 @@ body {
 
 .cards:hover.card-top  {
   transform: translate(0px, -87.5px);
-  transition: 2s;
+  transition: 1s;
 }
 
 .cards:hover.card-top + .card-bottom  {
   transform: translate(0px, 87.5px);
-  transition: 2s;
+  transition: 1s;
 }
 .ava {
   max-width: 100px;
@@ -64,8 +73,10 @@ body {
   border-radius: 50%;
 }
 h1 {
-  font-size: 23px;
+  font-family: Inter;
+  font-size: 20px;
 }
 .text {
+  font-family: Inter;
   padding: 0 10px;
 }
