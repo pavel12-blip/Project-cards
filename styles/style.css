@@ -99,11 +99,9 @@ h1 {
 }
 .cards:hover.card-top {
   transform: translate(0px, -50px);
-  transition: 1s;
 }
 
 .cards:hover.card-top + .card-bottom {
   transform: translate(0px, 50px);
-  transition: 1s;
 }
 }
