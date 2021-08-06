@@ -7,8 +7,7 @@
 body {
   background-color: antiquewhite;
 }
-h1{
-  
+h1 {
 }
 
 .container {
@@ -58,12 +57,12 @@ h1{
   transition: 1s;
 }
 
-.cards:hover.card-top  {
+.cards:hover.card-top {
   transform: translate(0px, -87.5px);
   transition: 1s;
 }
 
-.cards:hover.card-top + .card-bottom  {
+.cards:hover.card-top + .card-bottom {
   transform: translate(0px, 87.5px);
   transition: 1s;
 }
@@ -79,4 +78,20 @@ h1 {
 .text {
   font-family: Inter;
   padding: 0 10px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 300px;
+  }
+  .cards {
+    width: 70px;
+    height: 70px;
+}
+.ava {
+  max-width: 50px;
+  
+}
+h1 {
+  font-size: 7px;
+}
 }
